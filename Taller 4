@@ -1,40 +1,44 @@
 TALLER 4
 
-  test
-    ADD %I0,%I1,%L3
-    SUB %L3,%I2,%O1
-    JMPL %07,8,%G0
-    NOP
+Primer Parte
+
+        test
+0X0000   ADD %I0,%I1,%L3
+0X0004   SUB %L3,%I2,%O1
+0X0008   JMPL %07,8,%G0
+0X000C   NOP
+        
+        main
+0X0010   SETHI 4191474,%I0
+0X0014   OR %I0,505,%I0
+0X0018   MOV 345,%I1
+0X001C   SETHI 826,%L0
+0X0020   OR %L0,139,%L0
+0X0024   SETHI 4052,%L1
+0X0028   OR %L1,752,%L1
+0X002C   SUB %L0,%L1,%I2
+0X0030   SUB %I0,%I1,%L0
+0X0034   ADD %L0,%I2,%L0
+0X0038   SETHI 4480,%L2
+0X003C   OR %L2,436,%L2
+0X0040   CMP %L0,%L2
+0X0044   BE a, true
+0X0048   SETHI 24419,%L5
+0X004C   OR %L5,422,%L5
+0X0050   ADD %L5,%L0,%L5
+0X0054   BA a, finish
     
-    SETHI 4191474,%I0
-    OR %I0,505,%I0
-    MOV 345,%I1
-    SETHI 826,%L0
-    OR %L0,139,%L0
-    SETHI 4052,%L1
-    OR %L1,752,%L1
-    SUB %L0,%L1,%I2
-    SUB %I0,%I1,%L0
-    ADD %L0,%I2,%L0
-    SETHI 4480,%L2
-    OR %L2,436,%L2
-    CMP %L0,%L2
-    BE a, true
-    SETHI 24419,%L5
-    OR %L5,422,%L5
-    ADD %L5,%L0,%L5
-    BA a, finish
-    
-  true
-    SETHI 3375,%L4
-    OR %L4,879,%L4
-    SUB %L0,%L4,%I2
-  finish
-    ADD %L0,2564,%L0
-    SUB %L0,%I1,%L0
-    CALL test
-    NOP
-    ADD &L0,%01,%L0
+        true
+0X0058   SETHI 3375,%L4
+0X005C   OR %L4,879,%L4
+0X0060   SUB %L0,%L4,%I2
+
+        finish
+0X0064   ADD %L0,2564,%L0
+0X0068   SUB %L0,%I1,%L0
+0X006C   CALL test
+0X0070   NOP
+0X0074   ADD &L0,%01,%L0
     
     
     
