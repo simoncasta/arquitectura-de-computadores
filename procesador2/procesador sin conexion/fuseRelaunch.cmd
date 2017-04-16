@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Martinez/Downloads/procesador/tsmux_isim_beh.exe" -prj "C:/Users/Martinez/Downloads/procesador/tsmux_beh.prj" "work.tsmux" 
