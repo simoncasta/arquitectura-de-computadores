@@ -1,0 +1,29 @@
+Command line:
+   tsalu_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49570
+
+Sat Apr 15 20:40:51 2017
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 859.386 Meg
+
+ Total Signals          : 10
+ Total Nets             : 103
+ Total Signal Drivers   : 4
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 481
+Total Line Count : 17
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 859.353 Meg
+
+Sat Apr 15 20:41:25 2017
+
