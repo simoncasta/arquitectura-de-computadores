@@ -1,0 +1,2 @@
+vhdtdtfi -prj procesador -o C:/Users/Martinez/Downloads/procesador2/registerFile.vhi -module registerFile -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work registerFile.vhd 
+vhdtdtfi -prj procesador -o C:/Users/Martinez/Downloads/procesador2/registerFile.vhi -module registerFile -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work registerFile.vhd 
