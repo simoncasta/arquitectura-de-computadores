@@ -1,0 +1,94 @@
+V3 60
+FL C:/Users/Martinez/Documents/procesador2/alu.vhd 2017/04/15.20:39:18 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/flip1.vhd 2017/04/10.17:58:28 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/flip2.vhd 2017/04/15.16:32:58 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/instructionMemory.vhd 2017/04/15.17:27:23 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/Miprocesador2.vhd 2017/04/18.17:58:09 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/mux.vhd 2017/04/15.17:09:36 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/registerFile.vhd 2017/04/15.20:12:21 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/seu.vhd 2017/04/15.17:15:09 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/sumador.vhd 2017/04/10.18:41:02 P.20131013
+FL C:/Users/Martinez/Documents/procesador2/uc.vhd 2017/04/15.20:27:48 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/alu.vhd 2017/04/15.20:39:18 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/flip2.vhd 2017/04/15.16:32:58 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/instructionMemory.vhd 2017/04/15.17:27:23 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/mux.vhd 2017/04/15.17:09:36 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/registerFile.vhd 2017/04/15.20:12:21 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/seu.vhd 2017/04/15.17:15:09 P.20131013
+FL C:/Users/Martinez/Downloads/procesador/uc.vhd 2017/04/15.20:27:48 P.20131013
+FL C:/Users/Martinez/Downloads/procesador2/Miprocesador2.vhd 2017/04/18.00:08:43 P.20131013
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/alu.vhd" 2017/04/15.20:39:18 P.20131013
+EN work/alu 1492559211 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/alu.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alu/Behavioral 1492559212 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/alu.vhd" \
+      EN work/alu 1492559211
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip1.vhd" 2017/04/10.17:58:28 P.20131013
+EN work/flip1 1492559197 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/flip1/Behavioral 1492559198 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip1.vhd" \
+      EN work/flip1 1492559197
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip2.vhd" 2017/04/15.16:32:58 P.20131013
+EN work/flip2 1492559199 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/flip2/Behavioral 1492559200 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/flip2.vhd" \
+      EN work/flip2 1492559199
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/instructionMemory.vhd" 2017/04/15.17:27:23 P.20131013
+EN work/instructionMemory 1492559201 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/instructionMemory.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/instructionMemory/Behavioral 1492559202 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/instructionMemory.vhd" \
+      EN work/instructionMemory 1492559201
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/Miprocesador2.vhd" 2017/04/18.18:46:31 P.20131013
+EN work/Miprocesador2 1492559213 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/Miprocesador2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Miprocesador2/arquitectura_Miprocesador2 1492559214 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/Miprocesador2.vhd" \
+      EN work/Miprocesador2 1492559213 CP sumador CP flip1 CP flip2 \
+      CP instructionMemory CP uc CP registerFile CP mux CP seu CP alu
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/mux.vhd" 2017/04/15.17:09:36 P.20131013
+EN work/mux 1492559207 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/mux.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux/Behavioral 1492559208 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/mux.vhd" \
+      EN work/mux 1492559207
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/registerFile.vhd" 2017/04/18.18:41:02 P.20131013
+EN work/registerFile 1492559205 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/registerFile.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/registerFile/Behavioral 1492559206 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/registerFile.vhd" \
+      EN work/registerFile 1492559205
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/seu.vhd" 2017/04/15.17:15:09 P.20131013
+EN work/seu 1492559209 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/seu.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/seu/Behavioral 1492559210 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/seu.vhd" \
+      EN work/seu 1492559209
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/sumador.vhd" 2017/04/10.18:41:02 P.20131013
+EN work/sumador 1492559195 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/sumador.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumador/Behavioral 1492559196 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/sumador.vhd" \
+      EN work/sumador 1492559195
+FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/uc.vhd" 2017/04/15.20:27:48 P.20131013
+EN work/uc 1492559203 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/uc.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/uc/Behavioral 1492559204 \
+      FL "C:/Users/utp/Desktop/procesador con conexion/procesador2/uc.vhd" \
+      EN work/uc 1492559203
+FL C:/Users/utp/Documents/simon/procesador/flip1.vhd 2017/04/10.17:58:28 P.20131013
+FL C:/Users/utp/Documents/simon/procesador/instructionMemory.vhd 2017/04/10.19:17:14 P.20131013
+FL C:/Users/utp/Documents/simon/procesador/sumador.vhd 2017/04/10.18:41:02 P.20131013
