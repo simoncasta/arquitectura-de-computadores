@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/utp/Documents/simon/procesador/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/utp/Documents/simon/procesador/xst"
+elaborate
+-ifn flip1.prj
+-ifmt mixed
