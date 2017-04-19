@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador -o C:/Users/Martinez/Downloads/procesador2/uc.vhi -module uc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work uc.vhd 
