@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Martinez/Downloads/procesador2/Miprocesador2.xst" -ofn "C:/Users/Martinez/Downloads/procesador2/Miprocesador2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Miprocesador2.ngc Miprocesador2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Miprocesador2_map.ncd Miprocesador2.ngd Miprocesador2.pcf 
+xst -intstyle ise -ifn "C:/Users/Martinez/Downloads/procesador2/Miprocesador2.xst" -ofn "C:/Users/Martinez/Downloads/procesador2/Miprocesador2.syr" 
+xst -intstyle ise -ifn "C:/Users/Martinez/Documents/procesador2/Miprocesador2.xst" -ofn "C:/Users/Martinez/Documents/procesador2/Miprocesador2.syr" 
+xst -intstyle ise -ifn "C:/Users/Martinez/Desktop/procesador2/Miprocesador2.xst" -ofn "C:/Users/Martinez/Desktop/procesador2/Miprocesador2.syr" 
+xst -intstyle ise -ifn "C:/Users/Martinez/Desktop/procesador2/Miprocesador2.xst" -ofn "C:/Users/Martinez/Desktop/procesador2/Miprocesador2.syr" 

@@ -1,0 +1,2 @@
+vhdtdtfi -prj procesador -o C:/Users/Martinez/Downloads/procesador2/flip2.vhi -module flip2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work flip2.vhd 
+vhdtdtfi -prj procesador -o C:/Users/Martinez/Documents/procesador2/flip2.vhi -module flip2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work flip2.vhd 
