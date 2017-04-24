@@ -1,0 +1,10 @@
+Command line:
+   tssumador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61078
+
+Sat Apr 15 16:17:02 2017
+
+
+ Elaboration Time: 0.421875 sec
