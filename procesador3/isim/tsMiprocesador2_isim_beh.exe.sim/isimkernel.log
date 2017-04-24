@@ -1,0 +1,10 @@
+Command line:
+   tsMiprocesador2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53030
+
+Mon Apr 24 17:39:01 2017
+
+
+ Elaboration Time: 0.40625 sec
