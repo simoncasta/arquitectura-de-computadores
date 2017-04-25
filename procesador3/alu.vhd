@@ -71,7 +71,7 @@ begin
 					when "001011" => -- SUBcc
 						salu <= crs1 - crs;
 					when "001100" => -- SUBXcc
-						salu <= crs1 - crs + c;
+						salu <= crs1 - crs - c;
 						
 					when "001101" => -- ANDcc
 						salu <= crs1 and crs;
