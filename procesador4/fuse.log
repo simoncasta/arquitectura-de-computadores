@@ -1,0 +1,47 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Martinez/Downloads/procesador4/tsMiprocesador2_isim_beh.exe -prj C:/Users/Martinez/Downloads/procesador4/tsMiprocesador2_beh.prj work.tsMiprocesador2 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/winMan.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/uc.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/sumador.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/seu.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/registerFile.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/psr.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/mux.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/modPsr.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/instructionMemory.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/flip2.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/flip1.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/alu.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/Miprocesador2.vhd" into library work
+Parsing VHDL file "C:/Users/Martinez/Downloads/procesador4/tsMiprocesador2.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1196 - "C:/Users/Martinez/Downloads/procesador4/instructionMemory.vhd" Line 51: Readline called past the end of file romfile
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity sumador [sumador_default]
+Compiling architecture behavioral of entity flip1 [flip1_default]
+Compiling architecture behavioral of entity flip2 [flip2_default]
+Compiling architecture behavioral of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity uc [uc_default]
+Compiling architecture behavioral of entity registerFile [registerfile_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity seu [seu_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity modPsr [modpsr_default]
+Compiling architecture behavioral of entity psr [psr_default]
+Compiling architecture behavioral of entity winMan [winman_default]
+Compiling architecture arquitectura_miprocesador2 of entity Miprocesador2 [miprocesador2_default]
+Compiling architecture behavior of entity tsmiprocesador2
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 32 VHDL Units
+Built simulation executable C:/Users/Martinez/Downloads/procesador4/tsMiprocesador2_isim_beh.exe
+Fuse Memory Usage: 34068 KB
+Fuse CPU Usage: 1093 ms

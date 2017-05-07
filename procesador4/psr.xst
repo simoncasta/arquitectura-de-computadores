@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/utp/Downloads/procesador3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/utp/Downloads/procesador3/xst"
+elaborate
+-ifn psr.prj
+-ifmt mixed
