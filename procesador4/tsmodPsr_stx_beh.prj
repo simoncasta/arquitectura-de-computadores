@@ -1,0 +1,2 @@
+vhdl isim_temp "modPsr.vhd"
+vhdl isim_temp "tsmodPsr.vhd"
