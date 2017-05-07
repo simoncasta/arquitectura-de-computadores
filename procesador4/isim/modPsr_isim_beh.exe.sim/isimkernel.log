@@ -1,0 +1,29 @@
+Command line:
+   modPsr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50117
+
+Mon Apr 24 18:55:38 2017
+
+
+ Elaboration Time: 0.359375 sec
+
+ Current Memory Usage: 1487.64 Meg
+
+ Total Signals          : 6
+ Total Nets             : 107
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 467
+Total Line Count : 23
+
+ Total Simulation Time: 0.40625 sec
+
+ Current Memory Usage: 1015.72 Meg
+
+Mon Apr 24 18:56:50 2017
+
